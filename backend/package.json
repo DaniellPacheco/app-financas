@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Aplicativo de controle de finanças familiar",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniellPacheco/app-financas.git"
+  },
+  "keywords": [
+    "Aplicativo",
+    "de",
+    "Finanças",
+    "Familiar"
+  ],
+  "author": "Daniel Pacheco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniellPacheco/app-financas/issues"
+  },
+  "homepage": "https://github.com/DaniellPacheco/app-financas#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
